@@ -38,7 +38,7 @@ pip install requests
 
 * Sign up at [OpenWeatherMap](https://openweathermap.org/)
 * Generate a free API key.
-* Replace the `api_key` in `Real-time-Weather-App.py` with your own:
+* Replace the `api_key` in `main.py` with your own:
 
 ```python
 api_key = "your_api_key_here"
@@ -47,7 +47,7 @@ api_key = "your_api_key_here"
 ### 4. Run the app
 
 ```bash
-python Real-time-Weather-App.py
+python main.py
 ```
 
 ## 📸 Screenshots
