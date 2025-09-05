@@ -13,7 +13,7 @@ city_value = StringVar()
 
 # Define weather function
 def showWeather():
-    api_key = "09f08f5104c25cfe447f87f39f1b0fbe"
+    api_key = "your_api_key_here"
     city_name = city_value.get()
     api = 'http://api.openweathermap.org/data/2.5/weather?q=' + city_name + '&appid=' + api_key
     response = requests.get(api)
@@ -43,3 +43,4 @@ def showWeather():
 Entry(root, textvariable=city_value, width='20', justify=CENTER, font='arian 17 bold').place(x=45, y=20)
 Button(root, command=showWeather, text="Check Weather", activebackground='#145675', font="arial 13 bold", width=12, bg='#E1E1E3', fg ='Black', padx=5).place(x=315, y=20)
 root.mainloop()
+
