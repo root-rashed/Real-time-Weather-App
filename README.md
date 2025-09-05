@@ -21,8 +21,9 @@ A simple **desktop weather application** built with **Python (Tkinter)** that fe
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/weather-app.git
-cd weather-app
+git clone https://github.com/root-rashed/Real-time-Weather-App
+.git
+cd Real-time-Weather-App
 ```
 
 ### 2. Install dependencies
@@ -37,7 +38,7 @@ pip install requests
 
 * Sign up at [OpenWeatherMap](https://openweathermap.org/)
 * Generate a free API key.
-* Replace the `api_key` in `Weather_app.py` with your own:
+* Replace the `api_key` in `Real-time-Weather-App.py` with your own:
 
 ```python
 api_key = "your_api_key_here"
@@ -46,7 +47,7 @@ api_key = "your_api_key_here"
 ### 4. Run the app
 
 ```bash
-python Weather_app.py
+python Real-time-Weather-App.py
 ```
 
 ## 📸 Screenshots
