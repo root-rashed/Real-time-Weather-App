@@ -49,10 +49,6 @@ api_key = "your_api_key_here"
 python main.py
 ```
 
-## 📸 Screenshots
-
-*(Optional: Add screenshots of your app here for better presentation.)*
-
 ## ⚙️ Tech Stack
 
 * **Python 3**
