@@ -21,8 +21,7 @@ A simple **desktop weather application** built with **Python (Tkinter)** that fe
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/root-rashed/Real-time-Weather-App
-.git
+git clone https://github.com/root-rashed/Real-time-Weather-App.git
 cd Real-time-Weather-App
 ```
 
